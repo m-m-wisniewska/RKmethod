@@ -9,27 +9,27 @@ Użyte biblioteki są w wersji SFML 2.4.2 z kompilatorem GCC 6.1.0 MinGW (DW2).
 Celem programu jest zobrazowanie zadanych układów równań różniczkowych, których rozwiązanie
 metodami analitycznymi jest niemożliwe.
 
-Program został skonstruowany w taki sposób, ze nie mozna w nim podawac
-własnych warunków poczatkowych dla zadanych układów. Jest to celowy zabieg. Nie spowodowałoby
-to zadnych problemów obliczeniowych, a jedynie wizualne (które w pracy były bardzo ważne). 
-Wprowadzanie warunków poczatkowych wymagałoby bardzo duzej kontroli nad tym,
-co wpisuje uzytkownik - wartosci, które mógłby podać jako warunki początkowe,
-musiałyby byc bliskie podanym w pracy, poniewaz układy te maja charakter chaotyczny.
+Program został skonstruowany w taki sposób, że nie mozna w nim podawać
+własnych warunków początkowych dla zadanych układów. Jest to celowy zabieg. Nie spowodowałoby
+to żadnych problemów obliczeniowych, a jedynie wizualne (które w pracy były bardzo ważne). 
+Wprowadzanie warunków początkowych wymagałoby bardzo dużej kontroli nad tym,
+co wpisuje uzytkownik - wartości, które mógłby podać jako warunki początkowe,
+musiałyby być bliskie podanym w pracy, ponieważ układy te mają charakter chaotyczny.
 Oznacza to, że układy te przy pewnych warunkach początkowych zachowują się nieprzewidywalnie
 (zobrazowanie rozwiązania mogłoby okazać się niemożliwe). Przez to ich trajektorie
-mozna zobrazowac tylko przy odpowiednio dobranych warunkach oraz
+można zobrazować tylko przy odpowiednio dobranych warunkach oraz
 skalowaniu.
 
-Przy uruchamianiu aplikacji nalezy brac pod uwage, ze okno programu
-ma rozdzielczosc 1280x800. Ze wzgledu na to, ze program jest napisany z
-naciskiem na dokładnosc obliczen i graficznych odwzorowan, rysowanie wykresów
-i poruszanie sie miedzy ekranem rzutów a menu głównym wymaga
-oczekiwania maksymalnie pieciu do siedmiu sekund.
+Przy uruchamianiu aplikacji należy brać pod uwagę, że okno programu
+ma rozdzielczość 1280x800. Ze wzgledu na to, że program jest napisany z
+naciskiem na dokładność obliczeń i graficznych odwzorowań, rysowanie wykresów
+i poruszanie się między ekranem rzutów a menu głównym wymaga
+oczekiwania maksymalnie pięciu do siedmiu sekund.
 
-Ze wzgledu na ograniczenia wprowadzania warunków poczatkowych w
-opisanej aplikacji dołaczony jest tez konsolowy program, dzieki któremu
-mozna sprawdzic rachunki pojawiajace sie w metodzie Rungego-Kutty
-dla dowolnych wartosci (wyniki zostają wyeksportowane do pliku).
+Ze względu na ograniczenia wprowadzania warunków początkowych w
+opisanej aplikacji dołączony jest też konsolowy program, dzięki któremu
+można sprawdzić rachunki pojawiające się w metodzie Rungego-Kutty
+dla dowolnych wartości (wyniki zostają wyeksportowane do pliku).
 
 Martyna Wiśniewska
 
